@@ -28,9 +28,14 @@ html, body {
 #headertext {
   font-size: 26px;
   font-weight: 400;
-  margin-top: 50px;
-  margin-left: 220px;
+  margin-top: 10px;
+  margin-left: 230px;
 }
+
+#headertext a {
+  color:inherit;
+}
+
 .imgme {
   border: 3px solid white;
   /* box-shadow: #AAA 0px 0px 4px 0px; */
@@ -45,6 +50,7 @@ html, body {
   font-weight: 300;
   margin-top: -6px;
 }
+
 #htem {
   font-size: 14px;
   font-weight: 300;
@@ -363,5 +369,5 @@ hr.soft {
   color: rgb(0,132,0);
 }
 .t2what {
-
+  color: rgb(0,132,132);
 }
