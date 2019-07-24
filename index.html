@@ -1,484 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nikita Detkov Personal Page</title>
-  <link href="./Andrej Karpathy Academic Website_files/style.css" rel="stylesheet">
-  <link href="./Andrej Karpathy Academic Website_files/css" rel="stylesheet" type="text/css">
+  <link href="./bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="./style.css" rel="stylesheet">
 </head>
 
 <body onload="start()">
-
-<div id="header" class="bg1">
-  <div id="topnav">
-    <ul>
-      <li><a href="http://nikitiusd.github.io/blog/article">Something like blog</a></li>
-    </ul>
-  </div>
-  <div id="headerblob">
-    <img src="./pics/me.jpg" class="img-circle imgme">
-    <div id="headertext">
-      <div id="htname">Nikita Detkov</div>
-      <div id="htdesc">UrFU Institute of Maths and Computer Science bachelor student</div>
-      <div id="htem">nik.intouch@mail.ru</div>
-      <div id="icons">
-        <div class="svgico">
-          <a href="https://vk.com/nikitiusdetkov"><img src="./pics/vk-icon_white.svg" width="50px"></a>
-        </div>
-        <div class="svgico">
-          <a href="https://github.com/NikitiusD"><img src="./pics/github-icon_white.svg" width="50px"></a>
-        </div>
-        <div class="svgico">
-          <a href="https://www.kaggle.com/detkov"><img src="./pics/kaggle-icon_white.svg" width="50px"></a>
-        </div>
-      </div>
+  <div id="header" class="bg1">
+    <div id="topnav">
+      <ul>
+        <li><a href="./blog/article">Something like blog</a></li>
+      </ul>
     </div>
-  </div>
-</div>
+    <div id="headerblob">
+      <img src="./pics/me.jpg" class="img-circle imgme">
+      <div id="headertext">
+        <div id="htname">Nikita Detkov</div>
+        <div id="htdesc">Data Scientist</div>
+        <div id="htem"><img src="./pics/location-arrow_white.svg" width="12px"> <a
+            href="https://google.com/maps/place/Yekaterinburg,+Sverdlovsk+Oblast/@56.8140005,60.5148523,11z/data=!3m1!4b1!4m5!3m4!1s0x43c165eaa062db4b:0xd50243d7f7567f20!8m2!3d56.8389261!4d60.6057025?hl=en">Yekaterinburg,
+            Russia</a></div>
 
-<div class="container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
-  <b>Bio</b>. Some bio here
-  <br><br>
-  <b>Timeline</b>.
- 
-  <br>
-  <span class="t2when">2016-now:</span>
-  <span class="t2who">Institute of Maths and Computer Science: BSc</span>
-  <span class="t2what">Neural Networks for the Autopilot</span>
-
-  <br>
-  <span class="t2when">Summer 2018:</span>
-  <span class="t2who">Data Science Intern at SbarBank</span>
-  <span class="t2what">Understanding the data for business</span>
-
-  <br>
-  <span class="t2when">2018-now:</span>
-  <span class="t2who">Data Scientist at SbarBank</span>
-  <span class="t2what">Using machine learning methods to optimize employee performance</span>
-
-  <br><br>
-  <b>News</b>.
-  <br>Jan 2019: Bought new computer
-  <br>Jun 2019: Something else
-
-</div>
-
-<hr class="soft">
-
-<div class="container">
-  <h2>Publications</h2>
-  <div id="pubs">
-	 
-    <div class="pubwrap">
-      <div class="pubd" style="display:inline-block">[PDF soon] World of Bits: An Open-Domain Platform for Web-Based Agents,</div>
-      <div class="puba" style="display:inline-block">Tianlin (Tim) Shi, Andrej Karpathy, Linxi (Jim) Fan, Jonathan Hernandez, Percy Liang</div>
-      <div class="pubv" style="display:inline-block">ICML 2017</div>
-			<br><br>
-      <div class="pubd" style="display:inline-block"><a href="https://openreview.net/pdf?id=BJrFC6ceg">[PDF]</a> PixelCNN++: A PixelCNN Implementation with Discretized Logistic Mixture Likelihood and Other Modifications, </div>
-      <div class="puba" style="display:inline-block">Tim Salimans, Andrej Karpathy, Xi Chen, Diederik P. Kingma, and Yaroslav Bulatov</div>
-      <div class="pubv" style="display:inline-block">ICLR 2017</div>
-    </div>
-
-		<div class="pubwrap">
-			<img src="./Andrej Karpathy Academic Website_files/thesis.jpg" style="width:100%">
-			<div class="pubd" style="display:inline-block"><a href="https://cs.stanford.edu/people/karpathy/main.pdf">[PDF]</a> Connecting Images and Natural Language, </div>
-			<div class="puba" style="display:inline-block">Andrej Karpathy, </div>
-			<div class="pubv" style="display:inline-block">PhD Thesis, 2016</div>
-		</div>
-
-    <div class="pubwrap">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="pubimg">
-            <img src="./Andrej Karpathy Academic Website_files/densecap.png">
+        <!-- <div id="htdesc">UrFU Faculty of Mathematics, Mechanics and Computer Science bachelor student</div> -->
+        <div id="htem"><a href="mailto:nik.intouch@mail.ru">nik.intouch@mail.ru</a></div>
+        <div id="icons">
+          <div class="svgico">
+            <a href="https://vk.com/nikitiusdetkov"><img src="./pics/vk-icon_white.svg" width="50px"></a>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="pub">
-            <div class="pubt">DenseCap: Fully Convolutional Localization Networks for Dense Captioning</div>
-            <div class="pubd">Efficiently identify and caption all the things in an image with a single forward pass of a network. Our model is fully differentiable and trained end-to-end without any pipelines. The model is also very efficient (processes a 720x600 image in only 240ms), and evaluation on a large-scale dataset of 94,000 images and 4,100,000 region captions shows that it outperforms baselines based on previous approaches.</div>
-            <div class="puba">Justin Johnson*, Andrej Karpathy*, Li Fei-Fei</div>
-            <div class="pubv">CVPR 2016 (Oral)</div>
-            <div class="publ">
-              <ul>
-                <li><a href="https://cs.stanford.edu/people/karpathy/densecap">Project</a></li>
-                <li><a href="https://cs.stanford.edu/people/karpathy/densecap.pdf">PDF</a></li>
-                <li><a href="https://github.com/jcjohnson/densecap">Code (Github)</a></li>
-              </ul>
-            </div>
+          <div class="svgico">
+            <a href="https://github.com/NikitiusD"><img src="./pics/github-icon_white.svg" width="50px"></a>
+          </div>
+          <div class="svgico">
+            <a href="https://www.kaggle.com/detkov"><img src="./pics/kaggle-icon_white.svg" width="50px"></a>
           </div>
         </div>
       </div>
-      <div class="row">
-        <img src="./Andrej Karpathy Academic Website_files/densecap_more.jpg" style="max-width:100%; margin-top:30px;">
-      </div>
     </div>
   </div>
 
-
-<hr class="soft">
-
-<div class="container">
-  <h2>Teaching</h2>
-  <div class="ctr">
-    <div class="hht">
-      Winter 2015/2016: I was an intructor for <a href="http://vision.stanford.edu/teaching/cs231n/">CS231n: Convolutional Neural Networks for Visual Recognition</a>.
-    </div>
-    <a href="http://vision.stanford.edu/teaching/cs231n/">
-      <img src="./Andrej Karpathy Academic Website_files/cs231n_class.jpg" style="max-width:100%;border-radius:3px;">
-    </a>
-
-  <div class="hht">
-    <br>
-    Have a look at the <a href="http://cs231n.github.io/">class notes</a>, the lecture slides on the <a href="http://cs231n.stanford.edu/syllabus.html">course syllabus page</a>, and on reddit <a href="https://www.reddit.com/r/cs231n">r/cs231n</a>.
-  </div>
-
-  </div>
-  
-</div>
-
-<hr class="soft">
-
-<div class="container">
-  <h2>Talks</h2>
-  <div class="row">
-    <div>Teaching</div>
-    <div class="ts">Bay Area Deep Learning School: Convolutional Neural Networks</div>
-      <a href="https://www.youtube.com/watch?v=u6aEYuemt0M" target="_blank"><img src="./Andrej Karpathy Academic Website_files/convlecture.png" style="width:100%;border-radius:3px;"></a><br>
+  <div class="container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
+    <b>Bio.</b>
+    Some bio here
     <br><br>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="ts">CVPR 2016 Deep Learning Workshop</div>
-      <a href="https://www.youtube.com/watch?v=CYwK8bQprBY" target="_blank"><img src="./Andrej Karpathy Academic Website_files/cvpr2016_talk.jpg" style="width:100%;border-radius:3px;"></a><br>
-    </div>
-    <div class="col-md-4">
-      <div class="ts">CVPR 2015 Oral</div>
-      <a href="http://techtalks.tv/talks/deep-visual-semantic-alignments-for-generating-image-descriptions/61593/" target="_blank"><img src="./Andrej Karpathy Academic Website_files/cvpr2015_talk.jpeg" style="width:100%;border-radius:3px;"></a><br>
-    </div>
-   <div class="col-md-4">
-      <div class="ts">RE•WORK Deep Learning Summit 2016</div>
-      <a href="https://www.youtube.com/watch?v=qPcCk1V1JO8" target="_blank"><img src="./Andrej Karpathy Academic Website_files/rework_talk.jpeg" style="width:100%;border-radius:3px;"></a><br>
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-md-6">
-      <div>Academic</div>
-       <div class="ts"><a href="http://svg.dmi.unict.it/icvss2016/">ICVSS 2016 Summer School Keynote Invited Speaker</a></div>
-      <div class="ts"><a href="http://www.deep-vision.net/">Deep Vision Workshop at CVPR 2016</a></div>
-      <div class="ts"><a href="https://www.eecs.mit.edu/news-events/calendar/events/eecs-special-seminar-andrej-karpathy-connecting-images-and-natural">MIT EECS Special Seminar: Andrej Karpathy "Connecting Images and Natural Language"</a></div>
-      <div class="ts"><a href="https://www.cs.princeton.edu/events/25394">Princeton CS Department Colloquium: "Connecting Images and Natural Language"</a></div>
-      <div class="ts"><a href="http://www.deep-vision.net/">Deep Vision Workshop at CVPR 2015</a></div>
-      <div class="ts"><a href="https://www.youtube.com/watch?v=yk6XDFm3J2c">Language &amp; Vision Workshop 2015</a></div>
-      <div class="ts"><a href="https://vimeo.com/101555393">Bay Area Multimedia Forum: Large-scale Video Classification with CNNs</a></div>
-      <div class="ts"><a href="http://techtalks.tv/talks/large-scale-video-classification-with-convolutional-neural-networks-2/60272/">CVPR 2014 Oral: Large-scale Video Classification with Convolutional Neural Networks</a></div>
-      <div class="ts"><a href="http://techtalks.tv/talks/object-discovery-in-3d-scenes-via-shape-analysis/58848/">ICRA 2014: Object Discovery in 3D Scenes Via Shape Analysis</a></div>
-    </div>
-    <div class="col-md-6">
-      <div>On a side</div>
-      <div class="ts"><a href="http://www.eventbrite.com/e/stanford-university-nvidia-tech-talks-and-hands-on-labs-tickets-18729102249?aff=Stanford">Stanford University and NVIDIA Tech Talks and Hands-on Labs</a></div>
-      <div class="ts"><a href="http://www.meetup.com/sfmachinelearning/events/219842815/">SF ML meetup: Automated Image Captioning with ConvNets and Recurrent Nets</a></div>
-      <div class="ts"><a href="https://www.robots.ox.ac.uk/seminars/previousseminars.html">Oxford Robotics Research Group Seminar</a></div>
-      <div class="ts"><a href="https://cs.stanford.edu/people/karpathy/">Imperial College London Seminar</a></div>
-      <div class="ts"><a href="https://cs.stanford.edu/people/karpathy/">Cambridge Computer Science Seminar</a></div>
-      <div class="ts"><a href="http://www.meetup.com/London-Machine-Learning-Meetup/events/224514964/">London Machine Learning Meetup</a></div>
-      <div class="ts"><a href="http://www.meetup.com/Data-Science-London/events/224712911/">London Data Science Meetup</a></div>
-      <div class="ts"><a href="http://www.meetup.com/Deep-Learning-London/events/224948095/">London Deep Learning Meetup</a></div>
-      <div class="ts"><a href="https://www.youtube.com/watch?v=8AnV7xAvpLQ&amp;feature=youtu.be&amp;t=4m15s">NVIDIA GTC 2015 Keynote</a></div>
-    </div>
-  </div>
-  <br><br>
-</div>
+    <b>Timeline.</b>
 
-<hr class="soft">
+    <br>
+    <span class="t2when">2016-now:</span>
+    <span class="t2who">UrFU Faculty of Mathematics, Mechanics and Computer Science: BSc</span>
+    <span class="t2what"></span>
 
-<div class="container">
-  <h2>Pet Projects</h2>
-  <div class="row">
+    <br>
+    <span class="t2when">Summer 2018:</span>
+    <span class="t2who">Data Science Intern at SberBank</span>
+    <span> - </span>
+    <span class="t2what">Understanding the data for business</span>
 
-    <div class="col-md-4">
-      <div class="pp">
-        <a href="http://www.arxiv-sanity.com/">
-          <img src="./Andrej Karpathy Academic Website_files/sanity.jpeg" class="imgb">
-        </a>
-        <div class="ppt">Arxiv Sanity Preserver</div>
-        <div class="ppd">
-        There are way too many Arxiv papers. This project is an attempt to make them searchable and sortable in the pretty interface. The <i>sort by tfidf similarity</i> feature works very well and can be quite useful. My aim is to expand on this project over time, e.g. add a social layer, or create custom paper classifiers / notifications, etc.
-        </div>
+    <br>
+    <span class="t2when">2018-now:</span>
+    <span class="t2who">Data Scientist at SberBank</span>
+    <span> - </span>
+    <span class="t2what">Using ML to improve employee performance</span>
+
+    <br><br>
+    <b>News</b>.
+    <br>Jan 2019: Bought new computer
+    <br>Jun 2019: Something else
+  </div>
+
+  <hr class="soft">
+
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="ctr" style="margin-bottom: 40px;">
+      <div class="hht">
+        <b><a href="https://github.com/NikitiusD/Person-recognizer-with-Face-Detection-and-Super-Resolution">Person
+            verification with Face Detection and Super-Resolution</a></b>
+        <br>
+        In this project I'm trying confirm the hypothesis of whether it is possible to improve the quality of face
+        verification with the help of preliminary upscaling (applying Super-Resolution).
+      </div>
+      <img src="./pics/project_person_verification.jpg" style="max-width:100%;border-radius:5px;">
+      <div class="hht">
+        <br>
+        <b><a href="https://github.com/NikitiusD/VK_Group_Bot_v.2">VK Group Bot</a></b>
+        <br>
+        I created a bot for VK, which helps to cope with the flow of garbage in the news feed.
       </div>
     </div>
 
-    <div class="col-md-4">
-      <div class="pp">
-        <a href="http://cs.stanford.edu/people/karpathy/convnetjs/">
-        <img src="./Andrej Karpathy Academic Website_files/convnetlogo3.png" class="imgb">
-        </a>
-        <div class="ppt">ConvNetJS</div>
-        <div class="ppd">
-          ConvNetJS is Deep Learning / Neural Networks library written entirely in Javascript. This enables nice web-based demos that train Convolutional Neural Networks (or ordinary ones) entirely in the browser. Many web demos included. I did an interview with Data Science Weekly about the library and some of its back story <a href="http://www.datascienceweekly.org/data-scientist-interviews/training-deep-learning-models-browser-andrej-karpathy-interview">here</a>.
-        </div>
-        
+    <hr class="soft">
+    <h2>Publications</h2>
+    <div style="margin-bottom: 40px;">
+      <div id="pubs">
+        <div class="pubd" style="display:inline-block">Cool Title</div><br>
+        <div class="puba" style="display:inline-block">Nikita Detkov et al., </div>
+        <div class="pubv" style="display:inline-block">Cool Conference 2020</div>
+        <br><br>
+        <div class="pubd" style="display:inline-block">Another one cool title</div><br>
+        <div class="puba" style="display:inline-block">Nikita Detkov et al., </div>
+        <div class="pubv" style="display:inline-block">Cool Conference 2021</div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="pp">
-        <a href="http://cs.stanford.edu/people/karpathy/reinforcejs/">
-          <img src="./Andrej Karpathy Academic Website_files/mdpdp.jpeg" class="imgb">
-        </a>
-        <div class="ppt">REINFORCEjs</div>
-        <div class="ppd">
-           <a href="http://cs.stanford.edu/people/karpathy/reinforcejs/">REINFORCEjs</a> is a Reinforcement Learning library that implements several common RL algorithms supported with fun web demos. The library includes DP,TD,DQN algorithms and sketches of stochastic/deterministic Policy Gradients.
-        </div>
+    <hr class="soft">
+
+    <h2>Talks</h2>
+    <div class="row" style="margin-bottom: 40px;">
+      <div>Teaching</div>
+      <div class="ts">Deep Learning for medical tasks seminars</div>
+    </div>
+    <div class="row" style="margin-bottom: 40px;">
+      <div class="col-md-4">
+        <div class="ts">CVPR 2016 Deep Learning Workshop</div>
+      </div>
+      <div class="col-md-4">
+        <div class="ts">CVPR 2015 Oral</div>
+      </div>
+      <div class="col-md-4">
+        <div class="ts">RE•WORK Deep Learning Summit 2016</div>
       </div>
     </div>
 
-  </div>
+    <hr class="soft">
 
-  <div class="showmore" id="showmoreprojects">
-    show more
-  </div>
-
-  <div id="moreprojects">
+    <h2>Misc</h2>
     <div class="row">
-      <div class="col-md-3">
-        <div class="pp">
-          <a href="https://github.com/karpathy/ulogme">
-            <img src="./Andrej Karpathy Academic Website_files/ulogme-small.jpeg" class="imgsm">
-          </a>
-          <div class="ppt">ulogme</div>
-          <div class="ppd">
-             ulogme tracks your active windows / keystroke frequencies / notes throughout the entire day and visualizes the results in beautiful d3js timelines. Check out my <a href="http://karpathy.github.io/2014/08/03/quantifying-productivity/">blog post introducing the project</a> to learn more.
+      <div class="col-md-6">
+        <div class="miscitem">
+          <div class="miscimg">
+            <img src="./pics/feed.png" class="img-circle">
+          </div>
+          <div class="miscd">
+            <a href="./blog/article">Something like a blog</a>. Check it out now.
+          </div>
+        </div>
+        <div class="miscitem">
+          <div class="miscimg">
+            <div class="colorrect img-circle"></div>
+          </div>
+          <div class="miscd">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="pp">
-          <a href="http://cs.stanford.edu/people/karpathy/nipspreview/">
-            <img src="./Andrej Karpathy Academic Website_files/prettypapers.jpg" class="imgsm">
-          </a>
-          <div class="ppt">Pretty Accepted Papers</div>
-          <div class="ppd">
-            I was dissatisfied with the format that conferences use to announce the list of accepted papers (e.g. NIPS2012 <a href="http://papers.nips.cc/book/advances-in-neural-information-processing-systems-25-2012">here</a>). This led me to process the page into a <a href="http://cs.stanford.edu/people/karpathy/nipspreview/">much nicer and functional form</a>, with LDA topic analysis etc. The page became quite popular so I continued to make it for <a href="http://cs.stanford.edu/people/karpathy/nips2013/">NIPS 2013</a>, <a href="http://cs.stanford.edu/people/karpathy/cvpr2014papers/">CVPR 2014</a>, <a href="http://cs.stanford.edu/people/karpathy/nips2014/">NIPS2014</a>, <a href="http://cs.stanford.edu/people/karpathy/nips2015/">NIPS2015</a>, <a href="http://cs.stanford.edu/people/karpathy/cvpr2015papers/">CVPR 2015</a>. Others have picked up the Github code and adapted it to <a href="http://benhamner.com/icml2013preview/#/">ICML 2013</a> and <a href="http://www.colinlea.com/guides/cvpr2013.html">CVPR 2013</a>.
+      <div class="col-md-6">
+        <div class="miscitem">
+          <div class="miscimg">
+            <img src="./pics/twitter-icon_blue.svg" class="img-circle">
           </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="pp">
-          <a href="http://cs.stanford.edu/people/karpathy/researchlei/">
-            <img src="./Andrej Karpathy Academic Website_files/lei.png" class="imgsm">
-          </a>
-          <div class="ppt">Research Lei</div>
-          <div class="ppd">
-          Research Lei is an Academic Papers Management and Discovery System. It helps researchers build, maintain, and explore academic literature more efficiently, in the browser. <span style="color:#900">(deprecated since Microsoft Academic Search API was shut down :( )</span>
+          <div class="miscd">
+            Find me on <a href="">Twitter</a>, <a
+              href="">Github</a>, <a
+              href="">Google+</a>, <a
+              href="">Goodreads</a>.
           </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-      <div class="pp">
-        <a href="http://bit.ly/scholaroctopus">
-          <img src="./Andrej Karpathy Academic Website_files/scholaroctopus.jpg" class="imgsm">
-        </a>
-        <div class="ppt">ScholarOctopus</div>
-        <div class="ppd">
-          ScholarOctopus takes ~7000 papers from 34 ML/CV conferences (CVPR / NIPS / ICML / ICCV / ECCV / ICLR / BMVC) between 2006 and 2014 and visualizes them with t-SNE based on bigram tfidf vectors. In general, it should be much easier than it currently is to explore the academic literature, find related papers, etc. This hack is a small step in that direction at least for my bubble of related research.
         </div>
       </div>
     </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="pp">
-          <a href="http://cs.stanford.edu/~karpathy/tsnejs/">
-            <img src="./Andrej Karpathy Academic Website_files/tsnejslogo.jpg" class="imgsm">
-          </a>
-          <div class="ppt">tsnejs</div>
-          <div class="ppd">
-          tsnejs is a t-SNE visualization algorithm implementation in Javascript. I also computed an embedding for ImageNet validation images <a href="http://cs.stanford.edu/people/karpathy/cnnembed/">here</a>. Pretty! You can also use tsnejs to embed (almost) arbitrary CSV data in this <a href="http://cs.stanford.edu/people/karpathy/tsnejs/csvdemo.html">web interface</a>.
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="pp">
-          <a href="http://badmephisto.com/iphone/">
-            <img src="./Andrej Karpathy Academic Website_files/iphonepad.jpg" class="imgsm">
-          </a>
-          <div class="ppt">iOS apps</div>
-          <div class="ppd">
-            I'we written an <a href="http://badmephisto.com/iphone/">iOS app</a> that helps people access and remember Rubik's Cube algorithms. I've later also ported it to Android. There's also my little humble 2-4 player iPad game called <a href="http://itunes.apple.com/us/app/loud-snakes/id523479541?mt=8">Loud Snakes</a> :)
-        </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="pp">
-          <a href="http://cs.stanford.edu/people/karpathy/glass/">
-            <img src="./Andrej Karpathy Academic Website_files/glass.jpg" class="imgsm">
-          </a>
-          <div class="ppt">Glass Winners</div>
-          <div class="ppd">
-            This page was a fun hack. Google was inviting people to become Glass explorers through Twitter (#ifihadclass) and I set out to document the winners of the mysterious process for fun. I didn't expect that it would go on to explode on internet and get me mentions in <a href="http://techcrunch.com/2013/03/31/glass-explorer-apps/">TechCrunch</a>, Verge, and many other places.
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="pp">
-          <a href="https://www.youtube.com/watch?v=mSaO0Ul_55c">
-            <img src="./Andrej Karpathy Academic Website_files/tetris.jpg" class="imgsm">
-          </a>
-          <div class="ppt">Tetris AI</div>
-          <div class="ppd">
-            I think I enjoy writing AIs for games more than I like playing games myself - Over the years I wrote several for World of Warcraft, Farmville, Chess, and <a href="https://www.youtube.com/watch?v=mSaO0Ul_55c">Tetris</a>. On somewhat related note, I also wrote a super-fun <a href="http://code.google.com/p/nplayertetris/">Multiplayer Co-op Tetris</a>.
-          </div>
-        </div>
-      </div>
-      
-    </div>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="pp">
-          <a href="http://cs.stanford.edu/people/karpathy/evenmore.html">
-            <img src="./Andrej Karpathy Academic Website_files/circle.svg" class="imgsm">
-          </a>
-          <div class="ppt">even more</div>
-          <div class="ppd">
-            Even more various crappy projects I've worked on long time ago.
-          </div>
-        </div>
-      </div>
+
+    <div id="misc"  style="margin-bottom: 40px;">
+      <div>Still more unsorted misc</div>
+      <div class="umisc">- Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</div>
+      <div class="umisc">- Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
     </div>
   </div>
-
-</div>
-
-<hr class="soft">
-
-<div class="container">
-
-  <h2>Misc</h2>
-  <div class="row">
-    <div class="col-md-6">
-
-      <div class="miscitem">
-        <div class="miscimg">
-          <img src="./Andrej Karpathy Academic Website_files/feed.png" class="img-circle">
-        </div>
-        <div class="miscd">
-          My (mostly) <a href="http://karpathy.github.io/">Academic Blog</a>. I wish all researchers had one.
-        </div>
-      </div>
-
-      <div class="miscitem">
-        <div class="miscimg">
-          <img src="./Andrej Karpathy Academic Website_files/circuit.png" class="img-circle">
-        </div>
-        <div class="miscd">
-          <a href="http://karpathy.github.io/neuralnets/">Hacker's Guide to Neural Networks</a> is my attempt at explaining Neural Nets from "Hacker's perspective", relying more on code and physical intuitions than mathematics. I wrote this because I felt there were many people (e.g. some software engineers) who were interested in Deep Nets but who lacked the mathematical background to learn the basics through the usual channels.
-        </div>
-      </div>
-
-      <div class="miscitem">
-        <div class="miscimg">
-          <div class="colorrect img-circle"></div>
-        </div>
-        <div class="miscd">
-          I helped create the Programming Assignments for Andrew Ng's <a href="http://www.ml-class.org/">CS229A (Machine Learning Online Class)</a> - this was the precursor to Coursera. At UBC I also TA'd <a href="http://www.cs.ubc.ca/~nando/540-2011/index.php">CPSC540</a> (Graduate Probabilistic Machine Learning) and three times UBC's <a href="http://www.ugrad.cs.ubc.ca/~cs121/current/Homepage/">CPSC 121</a> (Discrete Mathematics), where I taught at tutorials.
-        </div>
-      </div>
-
-      <div class="miscitem">
-        <div class="miscimg">
-          <div class="colorrect img-circle"></div>
-        </div>
-        <div class="miscd">
-          I like to go through classes on Coursera and Udacity. I usually look for courses that are taught by very good instructor on topics I know relatively little about. Last year I decided to also finish Genetics and Evolution (<a href="http://cs.stanford.edu/people/karpathy/geneticsacc.jpg">statement of accomplishmnet</a>) and Epigenetics (<a href="http://cs.stanford.edu/people/karpathy/epigenetics_cert.jpg">statement</a>, + <a href="http://cs.stanford.edu/people/karpathy/EpigeneticsCourseranotes.pdf">my rough notes</a>).
-        </div>
-      </div>
-
-
-    </div>
-    <div class="col-md-6">
-
-      <div class="miscitem">
-        <div class="miscimg">
-          <img src="./Andrej Karpathy Academic Website_files/twitterblue.svg" class="img-circle">
-        </div>
-        <div class="miscd">
-          Find me on <a href="http://twitter.com/#!/karpathy">Twitter</a>, <a href="https://github.com/karpathy">Github</a>, <a href="https://plus.google.com/100209651993563042175">Google+</a>, <a href="http://www.goodreads.com/user/show/13472185-andrej-karpathy">Goodreads</a>.
-        </div>
-      </div>
-
-      <div class="miscitem">
-        <div class="miscimg">
-          <img src="./Andrej Karpathy Academic Website_files/cubevid.jpg" class="img-circle">
-        </div>
-        <div class="miscd">
-          A long time ago I was really into Rubik's Cubes. I learned to solve them in about 17 seconds and then, frustrated by lack of learning resources, created <a href="https://www.youtube.com/user/badmephisto/featured">YouTube videos</a> explaining the Speedcubing methods. These went on to become quite popular. There's also my cubing page <a href="http://badmephisto.com/">badmephisto.com</a>. Oh, and a video of me at a <a href="http://www.facebook.com/photo.php?v=715094857292&amp;set=vb.28120513&amp;type=2&amp;theater">Rubik's cube competition</a> :)
-        </div>
-      </div>
-
-      <div class="miscitem">
-        <div class="miscimg">
-          <div class="colorrect img-circle"></div>
-        </div>
-        <div class="miscd">
-          <a href="http://cs.stanford.edu/people/karpathy/advice.html">Advice</a> for doing well in undergrad classes, for younglings.
-        </div>
-      </div>
-
-      <div class="miscitem">
-        <div class="miscd">
-          <b>In media:</b><br>
-					<div>
-					- NVIDIA donating a DGX-1 to OpenAI. <a href="https://blogs.nvidia.com/blog/2016/08/15/first-ai-supercomputer-openai-elon-musk-deep-learning/">Official post</a>, and <a href="http://www.tomshardware.com/news/openai-nvidia-dgx-1-ai-supercomputer,32476.html">one more</a>.
-					</div>
-          <div>
-          - The New York Times article on using deep networks for <a href="http://www.nytimes.com/2014/11/18/science/researchers-announce-breakthrough-in-content-recognition-software.html?_r=0">automatically captioning images with sentences</a>.
-          </div>
-					<div>
-					- <a href="https://www.technologyreview.com/s/600997/hot-commodity/">MIT Technology Review profile</a>
-					</div>
-
-          <div>
-          - <a href="http://www.economist.com/news/briefing/21650526-artificial-intelligence-scares-peopleexcessively-so-rise-machines">The Economist: Rise of the machines</a>
-          </div>
-
-          <div>
-          - Wired article on my efforts to evaluate <a href="http://www.wired.com/2015/01/karpathy/">human accuracy on ImageNet</a>
-          </div>
-          <div>
-          - Article on char-rnn: <a href="http://www.engadget.com/2015/12/02/neural-network-journalism-philip-k-dick/">I taught a computer to write like Engadget</a>.
-          </div>
-          <div>
-          - The Verge articles on NeuralTalk, first <a href="http://www.theverge.com/2015/7/17/8985699/stanford-neural-networks-image-recognition-google-study">here</a> and then <a href="http://www.theverge.com/2015/11/25/9798448/neural-network-describe-live-video-neuraltalk">here</a>. Several inaccuracies, but by now quite used to it.
-          </div>
-					<div>
-					- <a href="https://www.quora.com/session/Andrej-Karpathy/1">Quora Session on Sept 8, 2016</a>
-       
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div id="misc">
-    <div>Still more unsorted misc</div>
-    <div class="umisc">- I create those conference proceedings LDA visualization from time to time (<a href="http://cs.stanford.edu/people/karpathy/nips2015/">NIPS 2015 example</a>)</div>
-    <div class="umisc">- <a href="http://cs.stanford.edu/people/karpathy/cnnembed/">t-SNE visualization of CNN codes for ImageNet images</a></div>
-    <div class="umisc">- an efficient, <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc">batched Python/numpy implementation</a> of an LSTM forward and backward pass.
-    </div>
-    <div class="umisc">- a <a href="https://gist.github.com/karpathy/d4dee566867f8291f086"> Minimal character-level Recurrent Neural Network language model</a>, writted in Python/numpy. About 100 lines suffice! :)
-    </div>
-		<div class="umisc">- <a href="http://lossfunctions.tumblr.com/">Loss Functions Tumblr</a></div>
-    <div class="umisc">- <a href="http://cs.stanford.edu/people/karpathy/gan/">Generative Adversarial Nets Javascript demo</a></div>
-    <div class="umisc">- <a href="https://medium.com/@karpathy">Medium blog</a></div>
-
-  </div>
-</div>
-
-<div id="sitefooter"></div>
-
-</div>
 </body>
 </html>

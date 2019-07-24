@@ -11,7 +11,7 @@ html, body {
   margin-bottom: 40px;
 }
 .bg1 {
-  background-image: url('../pics/bg_blurred.jpg');
+  background-image: url('./pics/bg_blurred.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto 100%;
@@ -265,7 +265,7 @@ hr.soft {
 .pubwrap {
   padding-bottom: 20px;
   margin-bottom: 50px;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 10px solid #DDD;
 }
 .pub {
 }
@@ -322,7 +322,7 @@ hr.soft {
 }
 
 .miscitem {
-  margin: 10px 0px 60px;
+  margin: 10px 0px 40px;
 }
 .miscimg img {
   height: 50px;
@@ -350,7 +350,6 @@ hr.soft {
 }
 .ctr {
   text-align: center;
-  margin-bottom: 40px;
 }
 .hht {
   font-size: 20px;
