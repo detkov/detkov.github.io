@@ -36,7 +36,7 @@ html, body {
 #headertext {
   font-size: 26px;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 230px;
 }
 
@@ -46,7 +46,6 @@ html, body {
 
 .imgme {
   border: 3px solid white;
-  /* box-shadow: #AAA 0px 0px 4px 0px; */
   float: left;
 }
 
@@ -97,9 +96,6 @@ html, body {
 #topnav {
   display: flex;
   float: right;
-  /* position: absolute; */
-  /* top: 0; */
-  /* right: 0; */
   padding: 5px 10px 5px 10px;
   margin: 10px;
   border: 1px solid #FFF;
@@ -223,5 +219,4 @@ hr.soft {
   color: rgb(0,132,0);
 }
 .t2what {
-  /* color: rgb(0,132,255); */
 }
