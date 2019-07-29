@@ -64,6 +64,17 @@ html, body {
   font-weight: 300;
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size:18px; 
+  font-weight:300; 
+  margin-top:50px; 
+  margin-bottom:50px;
+}
+
 @media (max-width: 768px) {
   body #topnav a {
     font-size: 20px;
@@ -75,7 +86,6 @@ html, body {
     top: 100px;
     left: 0;
     width: 100%;
-
   }
   .imgme {
     float: none;
@@ -90,6 +100,21 @@ html, body {
   }
   #htdesc {
     font-size: 16px;
+  }
+
+  .container {
+    font-size: 14px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 40px !important;
+    padding: 0px 0px 20px !important;
+  }
+
+  .hht, .miscd, .pubd, .puba, .pubv{
+    font-size: 14px !important; 
   }
 }
 
@@ -106,9 +131,9 @@ html, body {
   color: white;
 }
 
-#topnav a:hover {
+/* #topnav a:hover {
   text-decoration: none;
-}
+} */
 
 .svgico {
   display: inline-block;
@@ -144,6 +169,7 @@ hr.soft {
   font-weight:400;
   color: #000;
 }
+
 @media (max-width: 768px) {
   .pubt {
     text-align: center;
