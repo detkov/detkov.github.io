@@ -221,9 +221,9 @@ hr.soft {
 }
 
 .umisc {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
-  color: #555;
+  /* color: #555; */
 }
 .ctr {
   text-align: center;
