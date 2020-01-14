@@ -113,7 +113,7 @@ html, body {
     padding: 0px 0px 20px !important;
   }
 
-  .hht, .miscd, .pubd, .puba, .pubv{
+  .hht, .miscd, .umisc, .pubd, .puba, .pubv{
     font-size: 14px !important; 
   }
 }
@@ -217,7 +217,6 @@ hr.soft {
 
 .miscd {
   font-size: 18px;
-  font-weight: 300;
 }
 
 .umisc {
