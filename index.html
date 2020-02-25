@@ -27,7 +27,9 @@
       <div id="headertext">
         <div id="htname">Nikita Detkov</div>
         <div id="htdesc">Data Scientist</div>
-        <div id="htem"><img src="./pics/location-arrow_white.svg" width="12px"> <a
+        <div id="htem"><img src="./pics/location-arrow_white.svg" width="12px" style="
+          -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,1));
+          filter: drop-shadow(0 0 5px rgba(0,0,0,1));"> <a
             href="https://google.com/maps/place/Yekaterinburg,+Sverdlovsk+Oblast/@56.8140005,60.5148523,11z/data=!3m1!4b1!4m5!3m4!1s0x43c165eaa062db4b:0xd50243d7f7567f20!8m2!3d56.8389261!4d60.6057025?hl=en" target="_blank">
             Yekaterinburg, Russia</a></div>
         <div id="htem"><a href="mailto:detkovns@gmail.com">detkovns@gmail.com</a></div>
@@ -132,65 +134,43 @@
     </div>
     <hr class="soft">
 
-    <!-- For Future -->
-    <!-- <h2>Talks</h2> 
+    <h2>Speeches</h2> 
     <div class="row" style="margin-bottom: 20px;">
       <div class="col-md-4">
-        <div class="ts">Some title [0]</div>
-        <a href="" target="_blank"><img src="" style="width:100%;border-radius:3px;"></a>
+        <div class="ts">
+          <b>Deep Learning Workshop</b> <br>
+          Here I talk about the Zero-Shot Learning — a method that allows to predict something model have never seen. 
+          <a href="https://slides.com/detkov/zero-shot-learning/fullscreen", target="_blank">Slides</a>.
+          <br><b><i>English subtitles are provided in the video</i></b>
+          <iframe width="100%" height="200px" src="https://www.youtube.com/embed/QhUtXH1BF48?controls=0&amp;start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
       <div class="col-md-4">
-        <div class="ts">Some title [1]</div>
+        <div class="ts">
+          <b>Deep Learning Workshop</b> <br>
+          Here I talk about the <a href="https://arxiv.org/abs/1609.05158" target="_blank">ESPCN architecture</a> 
+          and early approaches for the Super-Resolution problem.
+          <br><br><b><i>No English subtitles</i></b>
+        </div>
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/jIwFinY8vqY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="col-md-4">
-        <div class="ts">Some title [2]</div>
+        <div class="ts">
+          <b>Deep Learning Workshop</b> <br>
+          Here I talk about the <a href="https://arxiv.org/abs/1907.05740" target="_blank">Gated Shape CNN</a> 
+          for Semantic Segmentation and its main ideas. <br>
+          <a href="https://slides.com/detkov/gscnn/fullscreen", target="_blank">Slides</a>.
+          <br><b><i>No English subtitles</i></b>
+        </div>
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/ik4S0uW-WWo?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 
-    <hr class="soft"> -->
+    <hr class="soft">
 
     <h2>Misc</h2>
     <div class="row">
       <div class="col-md-6">
-        <div class="miscitem">
-          <div class="miscimg">
-            <img src="./pics/zero-shot.jpg" class="img-circle">
-          </div>
-          <div class="miscd">
-            <b>Deep Learning Workshop</b> <br>
-            Here I talk about the Zero-Shot Learning — a method that allows to predict something model have never seen. 
-            <a href="https://slides.com/detkov/zero-shot-learning/fullscreen", target="_blank">Slides</a>.
-            <br><b><i>English subtitles are provided in the video</i></b>
-            <a href="https://youtu.be/QhUtXH1BF48" target="_blank"><img src="./pics/zero-shot_workshop.jpg" style="width:100%;border-radius:3px;"></a>
-          </div>
-        </div>
-        <div class="miscitem">
-          <div class="miscimg">
-            <img src="./pics/espcn.jpg" class="img-circle">
-          </div>
-          <div class="miscd">
-            <b>Deep Learning Workshop</b> <br>
-            Here I talk about the <a href="https://arxiv.org/abs/1609.05158" target="_blank">ESPCN architecture</a> 
-            and early approaches for the Super-Resolution problem.
-            <br><b><i>No English subtitles, I'm sorry</i></b>
-            <a href="https://youtu.be/jIwFinY8vqY", target="_blank"><img src="./pics/espcn_workshop.jpg" style="width:100%;border-radius:3px;"></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="miscitem">
-          <div class="miscimg">
-            <img src="./pics/gscnn.jpg" class="img-circle">
-          </div>
-          <div class="miscd">
-            <b>Deep Learning Workshop</b> <br>
-            Here I talk about the <a href="https://arxiv.org/abs/1907.05740" target="_blank">Gated Shape CNN</a> 
-            for Semantic Segmentation and its main ideas. 
-            <a href="https://slides.com/detkov/gscnn/fullscreen", target="_blank">Slides</a>.
-            <br><b><i>No English subtitles, I'm sorry</i></b>
-            <a href="https://youtu.be/ik4S0uW-WWo", target="_blank"><img src="./pics/gscnn_workshop.jpg" style="width:100%;border-radius:3px;"></a>
-          </div>
-        </div>
         <div class="miscitem">
           <div class="miscimg">
             <img src="./pics/PGM.png" class="img-circle">
@@ -205,6 +185,7 @@
           </div>
         </div>
       </div>
+      <div class="col-md-6"></div>
     </div>
 
     <div id="misc" style="margin-bottom: 20px;">

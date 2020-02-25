@@ -58,11 +58,13 @@ html, body {
   font-size: 18px;
   font-weight: 300;
   margin-top: -6px;
+  text-shadow: 0px 0px 5px #000000;
 }
 
 #htem {
   font-size: 14px;
   font-weight: 300;
+  text-shadow: 0px 0px 5px #000000;
 }
 
 .container {
