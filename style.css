@@ -146,7 +146,13 @@ html, body {
   padding: 5px 10px 0px 0px;
   -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,1));
   filter: drop-shadow(0 0 5px rgba(0,0,0,1));
+  transition: all .15s ease-in-out;
 }
+
+.svgico:hover{
+  transform: scale(1.15);
+}
+
 #timeline {
   font-size: 20px;
   font-weight: 300;
