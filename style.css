@@ -14,7 +14,7 @@ html, body {
   font-weight: 300;
   color: white;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .bg1 {
@@ -55,19 +55,19 @@ html, body {
 #htname {
   font-size: 46px;
   font-weight: 400;
-  text-shadow: 0px 0px 5px #000000;
+  text-shadow: 0px 0px 10px #000000;
 }
 #htdesc {
   font-size: 18px;
   font-weight: 300;
   margin-top: -6px;
-  text-shadow: 0px 0px 5px #000000;
+  text-shadow: 0px 0px 10px #000000;
 }
 
 #htem {
   font-size: 14px;
   font-weight: 300;
-  text-shadow: 0px 0px 5px #000000;
+  text-shadow: 0px 0px 10px #000000;
 }
 
 .container {
@@ -75,10 +75,8 @@ html, body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  font-size:18px; 
-  font-weight:300; 
-  margin-top:50px; 
-  margin-bottom:50px;
+  font-size: 18px; 
+  font-weight: 300; 
 }
 
 @media (max-width: 768px) {
@@ -116,7 +114,6 @@ html, body {
 
   h2 {
     font-size: 40px !important;
-    padding: 0px 0px 20px !important;
   }
 
   .hht, .miscd, .umisc, .pubd, .puba, .pubv{
@@ -145,25 +142,12 @@ html, body {
   display: inline-block;
   padding: 5px 10px 0px 0px;
   fill: green;
-  filter: invert(100%) sepia(0%) saturate(648%) hue-rotate(204deg) brightness(109%) contrast(101%) drop-shadow(0 0 5px rgba(0,0,0,1));
-  -webkit-filter: invert(100%) sepia(0%) saturate(648%) hue-rotate(204deg) brightness(109%) contrast(101%) drop-shadow(0 0 5px rgba(0,0,0,1));
-  transition: all .15s ease-in-out;
-}
-
-.svgico_exact_color {
-  display: inline-block;
-  padding: 5px 10px 0px 0px;
-  fill: green;
-  filter: drop-shadow(0 0 5px rgba(0,0,0,1));
-  -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,1));
+  filter: drop-shadow(0 0 10px rgba(0,0,0,1));
+  -webkit-filter: drop-shadow(0 0 10px rgba(0,0,0,1));
   transition: all .15s ease-in-out;
 }
 
 .svgico:hover{
-  transform: scale(1.15);
-}
-
-.svgico_exact_color:hover{
   transform: scale(1.15);
 }
 
@@ -176,7 +160,7 @@ h2 {
   text-align: center;
   font-weight: 300;
   font-size: 50px;
-  padding: 10px 0px 20px;
+  padding: 10px 0px 10px 0px;
 }
 
 hr.soft {
