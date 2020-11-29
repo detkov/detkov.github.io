@@ -144,12 +144,26 @@ html, body {
 .svgico {
   display: inline-block;
   padding: 5px 10px 0px 0px;
-  -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,1));
+  fill: green;
+  filter: invert(100%) sepia(0%) saturate(648%) hue-rotate(204deg) brightness(109%) contrast(101%) drop-shadow(0 0 5px rgba(0,0,0,1));
+  -webkit-filter: invert(100%) sepia(0%) saturate(648%) hue-rotate(204deg) brightness(109%) contrast(101%) drop-shadow(0 0 5px rgba(0,0,0,1));
+  transition: all .15s ease-in-out;
+}
+
+.svgico_exact_color {
+  display: inline-block;
+  padding: 5px 10px 0px 0px;
+  fill: green;
   filter: drop-shadow(0 0 5px rgba(0,0,0,1));
+  -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,1));
   transition: all .15s ease-in-out;
 }
 
 .svgico:hover{
+  transform: scale(1.15);
+}
+
+.svgico_exact_color:hover{
   transform: scale(1.15);
 }
 
@@ -162,7 +176,7 @@ h2 {
   text-align: center;
   font-weight: 300;
   font-size: 50px;
-  padding: 30px 0px 40px;
+  padding: 10px 0px 20px;
 }
 
 hr.soft {
