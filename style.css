@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu|Ubuntu+Mono&display=swap');
 
-
 html, body {
   height: 100%;
   font-family: 'Ubuntu', 'Roboto', sans-serif;
@@ -17,29 +16,44 @@ html, body {
   margin-bottom: 20px;
 }
 
-.bg1 {
+.bg {
   background-image: url('./pics/bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto 100%;
 }
 
-.bg2 {
-  background-color: #299DB6;
+#headerblob {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  clear: both;
+  top: 165px;
 }
 
-#headerblob {
-  position: absolute;
-  clear: both;
-  left: 20%;
-  top: 165px;
-  /* width: 80%; */
+@media (min-width: 768px){
+  #headerblob{
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px){
+  #headerblob{
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px){
+  #headerblob{
+    width: 1170px;
+  }
 }
 
 #headertext {
   font-size: 26px;
   font-weight: 400;
-  margin-top: 22px;
   margin-left: 230px;
 }
 
@@ -50,6 +64,7 @@ html, body {
 .imgme {
   border: 3px solid white;
   float: left;
+  max-width: 203px;
 }
 
 #htname {
@@ -80,10 +95,6 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  body #topnav a {
-    font-size: 20px;
-  }
-
   #headerblob {
     text-align: center;
     position: absolute;
@@ -121,23 +132,6 @@ html, body {
   }
 }
 
-#topnav {
-  display: flex;
-  float: right;
-  padding: 5px 10px 5px 10px;
-  margin: 10px;
-  border: 1px solid #FFF;
-}
-
-#topnav a {
-  font-size: 26px;
-  color: white;
-}
-
-/* #topnav a:hover {
-  text-decoration: none;
-} */
-
 .svgico {
   display: inline-block;
   padding: 5px 10px 0px 0px;
@@ -149,11 +143,6 @@ html, body {
 
 .svgico:hover{
   transform: scale(1.15);
-}
-
-#timeline {
-  font-size: 20px;
-  font-weight: 300;
 }
 
 h2 {
@@ -174,33 +163,10 @@ hr.soft {
   margin: 0;
 }
 
-.pubt {
-  font-size: 22px;
-  font-weight:400;
-  color: #000;
-}
-
 @media (max-width: 768px) {
-  .pubt {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
   .pubd {
     text-align: justify;
   }
-}
-.pubd {  
-  font-size: 18px;
-  font-weight: 300;
-}
-.puba {
-  font-size: 18px;
-  color: #900;
-}
-.pubv {
-  color: #090;
-  font-size: 16px;
 }
 
 .miscitem {
@@ -216,42 +182,35 @@ hr.soft {
   filter: drop-shadow(0 0 5px rgba(0,0,0,0.2));
 }
 
-.colorrect {
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin-right: 10px;
-  margin-top: -10px;
-  background-color: #444;
-}
-
 .miscd {
   font-size: 18px;
 }
 
-.umisc {
-  font-size: 18px;
-  font-weight: 300;
-  /* color: #555; */
-}
-.ctr {
-  text-align: center;
-}
-.hht {
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: 300;
-}
 .ts {
   font-size: 14px;
   margin-bottom: 5px;
   font-weight: 300;
 }
+
+.pubd {
+  font-size: 18px;
+  font-weight: 300;
+}
+.puba {
+  font-size: 18px;
+  color: rgb(161, 34, 34);
+}
+.pubv {
+  color: rgb(0,132,0);
+  font-size: 16px;
+}
+
 .t2when {
-  color: rgb(132,0,0);
+  color: rgb(161, 34, 34);
 }
 .t2who {
   color: rgb(0,132,0);
 }
-.t2what {
-}
+/* .t2what {
+  color: #444;
+} */
