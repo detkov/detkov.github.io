@@ -3,7 +3,8 @@
 html, body {
   height: 100%;
   font-family: 'Ubuntu', 'Roboto', sans-serif;
-  color: #444;
+  color: #313441;
+  background: #fff;
 }
 
 #header {
@@ -17,7 +18,7 @@ html, body {
 }
 
 .bg {
-  background-image: url('./pics/bg.jpg');
+  background-image: url('./pics/header_bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto 100%;
@@ -198,18 +199,18 @@ hr.soft {
 }
 .puba {
   font-size: 18px;
-  color: rgb(161, 34, 34);
+  /* color: rgb(179, 112, 176); */
 }
 .pubv {
-  color: rgb(0,132,0);
+  color: rgb(54, 161, 68);
   font-size: 16px;
 }
 
 .t2when {
-  color: rgb(161, 34, 34);
+  color: rgb(54, 161, 68);
 }
 .t2who {
-  color: rgb(0,132,0);
+  /* color: rgb(0,132,0); */
 }
 /* .t2what {
   color: #444;
