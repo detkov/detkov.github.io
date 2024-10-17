@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu|Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
 
 html, body {
   height: 100%;
-  font-family: 'Ubuntu', 'Roboto', sans-serif;
-  color: #313441;
+  font-family: 'Noto Sans', sans-serif;
+  /* color: #313441; */
   background: #fff;
+  font-weight: 300; 
 }
 
 #header {
   max-width: 1920px;
   width: 100%;
   height: 400px;
-  font-weight: 300;
+  /* font-weight: 300; */
   color: white;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -54,7 +56,7 @@ html, body {
 
 #headertext {
   font-size: 26px;
-  font-weight: 400;
+  /* font-weight: 400; */
   margin-left: 230px;
 }
 
@@ -75,14 +77,14 @@ html, body {
 }
 #htdesc {
   font-size: 18px;
-  font-weight: 300;
+  /* font-weight: 300; */
   margin-top: -6px;
   text-shadow: 0px 0px 10px #000000;
 }
 
 #htem {
   font-size: 14px;
-  font-weight: 300;
+  /* font-weight: 300; */
   text-shadow: 0px 0px 10px #000000;
 }
 
@@ -92,7 +94,7 @@ html, body {
   margin-right: auto;
   margin-left: auto;
   font-size: 18px; 
-  font-weight: 300; 
+  /* font-weight: 400;  */
 }
 
 @media (max-width: 768px) {
@@ -128,7 +130,7 @@ html, body {
     font-size: 40px !important;
   }
 
-  .hht, .miscd, .umisc, .pubd, .puba, .pubv{
+  .hht, .umisc, .pubd {
     font-size: 14px !important; 
   }
 }
@@ -148,7 +150,7 @@ html, body {
 
 h2 {
   text-align: center;
-  font-weight: 300;
+  /* font-weight: 300; */
   font-size: 50px;
   padding: 10px 0px 10px 0px;
 }
@@ -183,35 +185,20 @@ hr.soft {
   filter: drop-shadow(0 0 5px rgba(0,0,0,0.2));
 }
 
-.miscd {
-  font-size: 18px;
-}
-
-.ts {
-  font-size: 14px;
-  margin-bottom: 5px;
-  font-weight: 300;
-}
 
 .pubd {
-  font-size: 18px;
-  font-weight: 300;
-}
-.puba {
-  font-size: 18px;
-  /* color: rgb(179, 112, 176); */
-}
-.pubv {
-  color: rgb(54, 161, 68);
-  font-size: 16px;
+  display:inline-block;
 }
 
+.t2whe {
+  font-weight: 400;
+}
 .t2when {
-  color: rgb(54, 161, 68);
+  font-weight: 400;
 }
-.t2who {
-  /* color: rgb(0,132,0); */
+
+.t2whenw {
+  font-family: 'Noto Sans Mono', monospace;
+  font-weight: 400;
+  font-size: 17px;
 }
-/* .t2what {
-  color: #444;
-} */
