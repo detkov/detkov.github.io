@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадьба Никиты и Эльвиры</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sunset: '#E74C3C',    // Warm sunset red
+                        mountain: '#2C3E50',   // Deep mountain blue-gray
+                        sky: '#4A90E2',        // Evening sky blue
+                        accent: '#F39C12',     // Golden accent
+                    },
+                    fontFamily: {
+                        sans: ['Manrope', 'sans-serif'],
+                        script: ['Great Vibes', 'cursive'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white font-sans text-gray-800 h-screen flex items-center justify-center p-4 sm:p-[5%] overflow-hidden">
+    <div class="w-full h-full border-2 border-sunset/40 rounded-3xl p-4 sm:p-8 flex flex-col items-center justify-between">
+        <h1 class="text-2xl sm:text-3xl text-mountain/60 tracking-wide font-light text-center">ОНИ ЖЕНЯТСЯ</h1>
+        
+        <div class="flex items-center justify-center gap-2 sm:gap-4 text-6xl -mb-[25vh] sm:mb-0">
+            <img src="assets/mountains-svgrepo-com.svg" class="w-12 h-12 sm:w-16 sm:h-16 [filter:invert(19%)_sepia(24%)_saturate(1234%)_hue-rotate(327deg)_brightness(89%)_contrast(89%)]" alt="Горы">
+            <img src="assets/wedding-rings-jewel-svgrepo-com.svg" class="w-12 h-12 sm:w-16 sm:h-16 [filter:invert(19%)_sepia(24%)_saturate(1234%)_hue-rotate(327deg)_brightness(89%)_contrast(89%)]" alt="Обручальные кольца">
+            <img src="assets/wine-glasses-svgrepo-com.svg" class="w-12 h-12 sm:w-16 sm:h-16 [filter:invert(19%)_sepia(24%)_saturate(1234%)_hue-rotate(327deg)_brightness(89%)_contrast(89%)]" alt="Винные бокалы">
+        </div>
+
+        <h2 class="text-4xl sm:text-6xl text-sunset/90 tracking-wide font-script leading-tight text-center">Никита и Эля</h2>
+
+        <div class="text-center space-y-2 sm:space-y-4">
+            <div class="text-lg sm:text-xl text-mountain/70 font-light">Дата</div>
+            <div class="text-lg sm:text-xl text-mountain/70 font-light">Место</div>
+            <a href="#" class="inline-block mt-2 sm:mt-4 px-6 sm:px-8 py-2 sm:py-3 border-2 border-sunset/40 text-sunset/60 rounded-full transition-all hover:bg-sunset/5 text-base sm:text-lg tracking-wide">Telegram чат</a>
+        </div>
+    </div>
+</body>
+</html> 
